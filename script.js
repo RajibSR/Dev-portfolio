@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var downloadButton = document.getElementById('download-resume');
     
     downloadButton.addEventListener('click', function() {
-      var resumeUrl = 'https://drive.google.com/file/d/1wfCmWR7SyA6VovyHRT1vAvOt-Hex4ddZ'; // Replace with the actual URL or path to your resume file
+      var resumeUrl = ''; // Replace with the actual URL or path to your resume file
       
       var link = document.createElement('a');
       link.href = resumeUrl;
